@@ -1,3 +1,4 @@
+# Shreya 
 from sklearn import datasets
 from sklearn import metrics
 from sklearn.neighbors import KNeighborsClassifier
@@ -41,7 +42,7 @@ X = df.to_numpy()
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
-print(
+# print(
 # fit a k-nearest neighbor model to the data
 knn = KNeighborsClassifier(n_neighbors = 5)
 knn.fit(X_train, y_train)
