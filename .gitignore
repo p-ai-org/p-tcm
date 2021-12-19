@@ -1,3 +1,5 @@
-/data/*
+/data/data_processed.csv
+/data/raw_data_cleaned.csv
+/data/data_processed_normalized.csv
 .ipynb_checkpoints
 .DS_Store
