@@ -108,4 +108,7 @@ def data_process(df):
     
     return df
 
+# df = pd.read_csv('./data/raw_data_cleaned.csv')
+# df = data_process(df)
+# df.to_csv('./data/data_processed.csv')
 
